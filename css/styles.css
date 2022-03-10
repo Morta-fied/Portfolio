@@ -52,10 +52,9 @@ img, video {
     height: auto;
     max-width: 100%;
 }
-.grid {
-display:grid ;
-grid-gap: 1em ; 
-grid-template-column:1em; 
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
 
 @media screen and (min-width: 600px) 
 }
